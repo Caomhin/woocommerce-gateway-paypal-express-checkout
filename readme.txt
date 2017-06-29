@@ -87,7 +87,8 @@ https://gist.github.com/mikejolley/ad2ecc286c9ad6cefbb7065ba6dfef48
 
 = 1.4.1 =
 * Fix   - Properly calculate whether Billing phone is required or not.
-* Fix   - Set NOSHIPPING based on product shipping requiredness (e.g. virtual products do not need shipping, etc)
+* Fix   - Set NOSHIPPING based on product shipping requiredness (e.g. virtual products do not need shipping, etc).
+* Fix   - Not Returning PayPal Transaction Fee.
 
 = 1.4.0 =
 * Tweak - Use shipping discount instead of tax when adjustment negative.
